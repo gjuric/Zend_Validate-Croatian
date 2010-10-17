@@ -21,7 +21,7 @@
  */
 
 /**
- * HR-Revision: 1
+ * HR-Revision: 2
  */
 return array(
     // Zend_Validate_Alnum
@@ -30,8 +30,8 @@ return array(
     "'%value%' is an empty string" => "'%value%' je prazan niz",
 
     // Zend_Validate_Alpha
-    "Invalid type given, value should be a string" => "Neispravan tip, vrijednos mora biti niz slova",
-    "'%value%' contains non alphabetic characters" => "'%value%' sadrži znakove koij nisu slova",
+    "Invalid type given, value should be a string" => "Neispravan tip, vrijednost mora biti niz slova",
+    "'%value%' contains non alphabetic characters" => "'%value%' sadrži znakove koji nisu slova",
     "'%value%' is an empty string" => "'%value%' je prazan niz",
 
     // Zend_Validate_Barcode
@@ -56,7 +56,7 @@ return array(
     "Luhn algorithm (mod-10 checksum) failed on '%value%'" => "Luhn algoritam (mod-10 provjera) nije prošla na '%value%'",
     "'%value%' must contain only digits" => "'%value%' mora sadržavati samo znamenke",
     "Invalid type given, value should be a string" => "Neispravan tip, vrijednost mora biti niz znakova",
-    "'%value%' contains an invalid amount of digits" => "'%value%' sadrži nispravan broj znamenki",
+    "'%value%' contains an invalid amount of digits" => "'%value%' sadrži neispravan broj znamenki",
     "'%value%' is not from an allowed institute" => "'%value%' nije iz dozvoljene institucije",
     "Validation of '%value%' has been failed by the service" => "Servis nije odobrio provjeru '%value%'",
     "The service returned a failure while validating '%value%'" => "Servis je vratio pogrešku provjeravajući '%value%'",
@@ -76,7 +76,7 @@ return array(
     "'%value%' is an empty string" => "'%value%' je prazan niz",
 
     // Zend_Validate_EmailAddress
-    "Invalid type given, value should be a string" => "Neispravn tip, vrijednost bi trebala biti niz",
+    "Invalid type given, value should be a string" => "Neispravan tip, vrijednost bi trebala biti niz",
     "'%value%' is no valid email address in the basic format local-part@hostname" => "'%value%' nije ispravna email adresa u osnovnom formatu lokalni-dio@ime-poslužitelja",
     "'%hostname%' is no valid hostname for email address '%value%'" => "'%hostname%' nije ispravno ime poslužitelja za email adresu '%value%'",
     "'%hostname%' does not appear to have a valid MX record for the email address '%value%'" => "'%hostname%' nema ispravan MX zapis za email adresu '%value%'",
@@ -88,10 +88,10 @@ return array(
 
     // Zend_Validate_File_Count
     "Too many files, maximum '%max%' are allowed but '%count%' are given" => "Previše datoteka, maksimalno '%max%' je dozvoljeno, a '%count%' je zadano",
-    "Too few files, minimum '%min%' are expected but '%count%' are given" => "Premalo datoteka, minimalno '%min%' se očekuja a '%count%' je zadano",
+    "Too few files, minimum '%min%' are expected but '%count%' are given" => "Premalo datoteka, minimalno '%min%' se očekuje a '%count%' je zadano",
 
     // Zend_Validate_File_Crc32
-    "File '%value%' does not match the given crc32 hashes" => "Datoteja '%value%' se ne podudara sa zadanim crc32 hash-em",
+    "File '%value%' does not match the given crc32 hashes" => "Datoteka '%value%' se ne podudara sa zadanim crc32 hash-em",
     "A crc32 hash could not be evaluated for the given file" => "crc32 hash se ne može izračunati za zadanu datoteku",
     "File '%value%' could not be found" => "Datoteku '%value%' nije moguće pronaći",
 
@@ -118,11 +118,11 @@ return array(
 
     // Zend_Validate_File_Hash
     "File '%value%' does not match the given hashes" => "Datoteka '%value%' ne odgovara danom 'hashu'",
-    "A hash could not be evaluated for the given file" => "'Hash' nije moguće iračunati za zadanu datoteku",
+    "A hash could not be evaluated for the given file" => "'Hash' nije moguće izračunati za zadanu datoteku",
     "File '%value%' could not be found" => "Datoteku '%value%' nije moguće pronaći",
 
     // Zend_Validate_File_ImageSize
-    "Maximum allowed width for image '%value%' should be '%maxwidth%' but '%width%' detected" => "Maksimalna dozovljena širina slike '%value%' je '%maxwidth%', slika je široka '%width%'",
+    "Maximum allowed width for image '%value%' should be '%maxwidth%' but '%width%' detected" => "Maksimalna dozvoljena širina slike '%value%' je '%maxwidth%', slika je široka '%width%'",
     "Minimum expected width for image '%value%' should be '%minwidth%' but '%width%' detected" => "Minimalna očekivana širina slike '%value%' je '%minwidth%' slika je široka '%width%'",
     "Maximum allowed height for image '%value%' should be '%maxheight%' but '%height%' detected" => "Maksimalna dozvoljena visina slike '%value%' je '%maxheight%', slika je visoka '%height%'",
     "Minimum expected height for image '%value%' should be '%minheight%' but '%height%' detected" => "Minimalna očekivana visina slike '%value%' je '%minheight%', slika je visoka '%height%'",
@@ -141,7 +141,7 @@ return array(
 
     // Zend_Validate_File_Md5
     "File '%value%' does not match the given md5 hashes" => "Datoteka '%value%' ne odgovara zadanom md5 hash-u",
-    "A md5 hash could not be evaluated for the given file" => "Md5 hash nije moguće iračunati za zadanu datoteku",
+    "A md5 hash could not be evaluated for the given file" => "Md5 hash nije moguće izračunati za zadanu datoteku",
     "File '%value%' could not be found" => "Datoteku '%value%' nije moguće pronaći",
 
     // Zend_Validate_File_MimeType
@@ -154,7 +154,7 @@ return array(
 
     // Zend_Validate_File_Sha1
     "File '%value%' does not match the given sha1 hashes" => "Datoteka '%value%' ne odgovara zadanom sha1 hash-u",
-    "A sha1 hash could not be evaluated for the given file" => "Sha1 hash se ne može iračunati za zadanu datoteku",
+    "A sha1 hash could not be evaluated for the given file" => "Sha1 hash se ne može izračunati za zadanu datoteku",
     "File '%value%' could not be found" => "Datoteku '%value%' nije moguće pronaći",
 
     // Zend_Validate_File_Size
@@ -175,7 +175,7 @@ return array(
     "Unknown error while uploading file '%value%'" => "Nepoznata pogreška prilikom slanja datoteke '%value%'",
 
     // Zend_Validate_File_WordCount
-    "Too much words, maximum '%max%' are allowed but '%count%' were counted" => "Previše rijeći, maksimalno '%max%' riječi je dozvoljeno, a ima ih '%count%'",
+    "Too much words, maximum '%max%' are allowed but '%count%' were counted" => "Previše riječi, maksimalno '%max%' riječi je dozvoljeno, a ima ih '%count%'",
     "Too less words, minimum '%min%' are expected but '%count%' were counted" => "Premalo riječi, očekuje se minimalno '%min%' riječi, a ima ih '%count%' ",
     "File '%value%' could not be found" => "Datoteku '%value%' nije moguće pronaći",
 
